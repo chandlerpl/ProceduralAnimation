@@ -19,6 +19,10 @@ public class IsabelaMovement : MonoBehaviour
     private Vector3 _rightPreviousPosition;
 
 
-
+    //stores the step size and the step height of the character
+    public float StepSize;
+    public float StepHeight;
+    
+    
 
 }
