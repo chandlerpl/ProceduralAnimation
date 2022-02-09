@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class IsabelaMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //creates variables to store the target positions
+    public Transform LeftTarget;
+    public Transform RightTarget;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //stores the current, next, and previous left leg positions
+    private Vector3 _leftCurrentPosition;
+    private Vector3 _leftNextPosition;
+    private Vector3 _leftPreviousPosition;
+    
+    //stores the current, next, and previous right leg positions
+    private Vector3 _rightCurrentPosition;
+    private Vector3 _rightNextPosition;
+    private Vector3 _rightPreviousPosition;
+
+
+
+
 }
